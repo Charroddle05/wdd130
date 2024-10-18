@@ -10,11 +10,6 @@
     --nav-hover-link-color: #3C8DDF;
     --nav-hover-background-color: #D5F7E8;
 
-a {
-    text-decoration:none;
-}
-}
-
 .center {
     text-align: center;
 }
@@ -82,4 +77,9 @@ adventure{
 }
 footer{
     background:#F7EF81;
+a {
+    text-decoration:none;
+}
+}
+
 }
