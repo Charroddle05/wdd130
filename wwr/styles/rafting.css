@@ -1,0 +1,31 @@
+/*2.Define the CSS variables in the 
+document :root pseudo-class selector from 
+the color scheme you have selected and 
+documented in this week's site 
+plan/graphic identity assignment.*/
+:root {
+
+}
+main {
+    max-width: 840px;
+}
+
+/*Style Begin by styling the headings
+ and paragraph elements.
+
+ *add colors and fonts
+
+ *remove underlines from social media links
+*/
+
+
+a {
+text-decoration: none;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
