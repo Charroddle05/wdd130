@@ -12,7 +12,6 @@ main {
     --heading-font: "Rock Salt";
     --paragraph-font: "Roboto Slab", Helvetica, sans-serif;
 
-    -headline-color-on-white: #396E94;  /* headlines on a white background */ 
     --headline-color-on-color: white; /* headlines on a colored background */ 
     --paragraph-color-on-white: #0D1B2A; /* paragraph text on a white background */ 
     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
@@ -36,7 +35,6 @@ body {
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
   }
   h2 {
     text-align: center;
@@ -57,7 +55,6 @@ body {
   }
   p {
     font-family: var(--paragraph-font);
-    color: var(--paragraph-color-on-white);
     padding: 1em;
   }
   .colors {
