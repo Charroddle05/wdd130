@@ -44,7 +44,7 @@ nav {
 }
 
 .book,.join {
-    background-color:#094074;
+    background-color:#F7D418;
     color:#000;
     text-decoration:none;
     text-align: center;
@@ -120,7 +120,7 @@ h4,.msg h2 {
 }
 
 header {
-    background-color:#6E9CB3;
+    background-color:#F7D418;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -230,7 +230,7 @@ footer .social img {
     
 }
 .question{
-    background: #094074;
+    background: #F7D418;
     margin: 70px;
     word-wrap: break-word;
     vertical-align: middle;
