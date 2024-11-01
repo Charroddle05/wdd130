@@ -298,3 +298,91 @@ footer .social img {
         margin-top: 25px;
     }
 }
+/* ------------------------- TRIPS PAGE ------------------------- */
+.title-trips {
+  text-align: center;
+}
+.title-trips h2 {
+  margin-top: 70px;
+}
+.title-trips img {
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+  width: 30%;
+}
+}
+
+.aboutus-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  box-sizing: border-box;
+  
+  
+}
+.question{
+  background: #F7D418;
+  margin: 70px;
+  word-wrap: break-word;
+  vertical-align: middle;
+  
+
+}
+.aboutus-grid .question h3  {
+  font-size: 16px;
+  padding: 10px;
+}
+.aboutus-grid .question p {
+  font-size: 14px;
+  padding: 10px;
+}
+.aboutus-grid .question li {
+  font-size: 14px;
+  padding: 5px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  #hero, .home-grid {
+      display: block;
+      height: auto;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  #hero {
+      margin-top: 0;
+  }
+  #hero-msg {
+      margin-top: 0;
+  }
+  #hero-msg h4 {
+      display: none;
+  }
+  .home-title {
+      font-size: 25px;
+      color: #6f7364;
+  }
+  .rivers-card, .camping-card, .rapids-card { 
+      margin: 50px auto;
+      width: 60%;
+  }
+  #background {
+      display: none;
+  }
+  .mountains, .msg {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+  }
+  footer {
+      margin-top: 25px;
+  }
+}
